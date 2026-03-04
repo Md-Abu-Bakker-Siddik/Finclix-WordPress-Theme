@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+	<!-- Custom Post Types -->
+	<!-- All CPTs are registered by mascot-core-finclix plugin -->
+	<custom-types>
+		<custom-type translate="1">footer</custom-type>
+		<custom-type translate="1">header-top</custom-type>
+		<custom-type translate="1">megamenu</custom-type>
+		<custom-type translate="1">page-title</custom-type>
+		<custom-type translate="1">portfolio-items</custom-type>
+		<custom-type translate="1">projects</custom-type>
+		<custom-type translate="1">side-push-panel</custom-type>
+		<custom-type translate="1">custom_blocks</custom-type>
+		<custom-type translate="1">custom_site_headers</custom-type>
+	</custom-types>
+
+	<!-- Taxonomies -->
+	<taxonomies>
+		<taxonomy translate="1">projects_category</taxonomy>
+		<taxonomy translate="1">portfolio_category</taxonomy>
+		<taxonomy translate="1">portfolio_tag</taxonomy>
+		<taxonomy translate="1">custom_blocks_category</taxonomy>
+	</taxonomies>
+
+	<!-- Custom Fields -->
+	<custom-fields>
+		<!-- Menu Item Custom Fields -->
+		<custom-field action="translate">_menu_item_mascot_dropdownposition</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_status</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_containerwidth</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_dropdownposition</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_bgimage</custom-field>
+		<custom-field action="translate">_menu_item_mascot_subtitle</custom-field>
+		<custom-field action="translate">_menu_item_mascot_menuicon</custom-field>
+		<custom-field action="translate">_menu_item_mascot_custombadge</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_gridcolumnwidth</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_widgetarea</custom-field>
+
+		<!-- Page Meta Box Settings -->
+		<custom-field action="translate">finclix_page_mb_sidebar_layout_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_slider_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_general_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_theme_color_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_header_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_logo_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_page_title_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_layout_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_footer_top_callout_settings</custom-field>
+		<custom-field action="translate">finclix_page_mb_footer_settings</custom-field>
+
+		<!-- Portfolio Meta Box Settings -->
+		<custom-field action="translate">finclix_portfolio_mb_gallery_images_settings</custom-field>
+		<custom-field action="translate">finclix_portfolio_mb_layout_settings</custom-field>
+		<custom-field action="translate">finclix_portfolio_mb_checklist_settings</custom-field>
+		<custom-field action="translate">finclix_portfolio_mb_project_link_settings</custom-field>
+		<custom-field action="translate">finclix_portfolio_mb_other_settings</custom-field>
+
+		<!-- Projects Meta Box Settings -->
+		<custom-field action="translate">finclix_projects_mb_settings</custom-field>
+
+		<!-- Room Booking Meta Fields -->
+
+		<!-- WooCommerce Room Booking Fields -->
+
+		<!-- Elementor/Page Builder Fields -->
+		<custom-field action="copy">_wpb_shortcodes_custom_css</custom-field>
+		<custom-field action="copy">_elementor_data</custom-field>
+		<custom-field action="copy">_elementor_page_settings</custom-field>
+		<custom-field action="copy">_elementor_template_type</custom-field>
+		<custom-field action="copy">_elementor_edit_mode</custom-field>
+		<custom-field action="copy">_elementor_css</custom-field>
+		<custom-field action="copy">_elementor_controls_usage</custom-field>
+	</custom-fields>
+
+	<!-- Admin Texts (Redux Framework Options) -->
+	<admin-texts>
+		<key name="finclix_redux_theme_opt">
+			<!-- General Settings -->
+			<key name="general-settings-favicon" />
+			<key name="general-settings-apple-touch-144" />
+			<key name="general-settings-apple-touch-114" />
+			<key name="general-settings-apple-touch-72" />
+			<key name="general-settings-apple-touch-32" />
+			<key name="general-settings-enable-responsive" />
+			<key name="general-settings-enable-backtotop" />
+			<key name="general-settings-enable-gsap-animation-by-default" />
+			<key name="general-settings-smooth-scroll" />
+			<key name="general-settings-enable-element-animation-effect" />
+
+			<!-- Logo Settings -->
+			<key name="logo-settings-site-brand" />
+			<key name="logo-settings-want-to-use-logo" />
+			<key name="logo-settings-switchable-logo" />
+			<key name="logo-settings-logo-default" />
+			<key name="logo-settings-logo-default-dark-bg" />
+			<key name="logo-settings-logo-primary" />
+			<key name="logo-settings-logo-on-sticky" />
+			<key name="logo-settings-logo-margin-around" />
+			<key name="logo-settings-logo-sticky-margin-around" />
+			<key name="logo-settings-admin-login-logo" />
+
+			<!-- Theme Color Settings -->
+			<key name="theme-color-settings-theme-color-type" />
+			<key name="theme-color-settings-primary-theme-color" />
+			<key name="theme-color-settings-custom-theme-color1" />
+			<key name="theme-color-settings-custom-theme-color2" />
+			<key name="theme-color-settings-custom-theme-color3" />
+			<key name="theme-color-settings-custom-theme-color4" />
+			<key name="theme-color-settings-custom-theme-text-color1" />
+			<key name="theme-color-settings-custom-theme-text-color2" />
+			<key name="theme-color-settings-custom-theme-text-color3" />
+			<key name="theme-color-settings-custom-theme-text-color4" />
+			<key name="theme-color-settings-custom-theme-color-filename" />
+			<key name="theme-color-settings-premade-sitewise-css-file" />
+
+			<!-- Dark Mode -->
+			<key name="general-settings-enable-dark-mode" />
+
+			<!-- Typography -->
+			<key name="typography-settings-predefined-typography" />
+			<key name="typography-primary-body" />
+			<key name="typography-primary-body-link-color" />
+			<key name="typography-section-title" />
+			<key name="typography-section-subtitle" />
+			<key name="typography-h1-h6" />
+			<key name="typography-h1" />
+			<key name="typography-h1-margin-top-bottom" />
+			<key name="typography-h2" />
+			<key name="typography-h2-margin-top-bottom" />
+			<key name="typography-h3" />
+			<key name="typography-h3-margin-top-bottom" />
+			<key name="typography-h4" />
+			<key name="typography-h4-margin-top-bottom" />
+			<key name="typography-h5" />
+			<key name="typography-h5-margin-top-bottom" />
+			<key name="typography-h6" />
+			<key name="typography-h6-margin-top-bottom" />
+
+			<!-- Layout Settings -->
+			<key name="layout-settings-page-layout" />
+			<key name="layout-settings-content-width" />
+
+			<!-- Header Settings -->
+			<key name="header-settings-choose-header-visibility" />
+			<key name="header-settings-navigation-show-header-nav-row" />
+			<key name="header-settings-header-layout-type-container" />
+			<key name="header-settings-header-layout-floating-bg-shadow" />
+			<key name="header-settings-header-layout-floating-text-color" />
+			<key name="header-settings-header-layout-floating-bg-color-sticky" />
+			<key name="header-settings-choose-header-layout-type" />
+			<key name="header-settings-navigation-animation" />
+			<key name="header-settings-navigation-skin" />
+			<key name="header-settings-navigation-item-typography" />
+			<key name="header-settings-navigation-item-hover-color" />
+			<key name="header-settings-navigation-item-dropdown-typography" />
+			<key name="header-settings-navigation-item-dropdown-hover-color" />
+			<key name="header-settings-navigation-skin-dropdown-menu-width" />
+			<key name="header-settings-navigation-item-megamenu-dropdown-typography" />
+			<key name="header-settings-navigation-item-megamenu-dropdown-hover-color" />
+			<key name="header-settings-choose-header-top-cpt-elementor" />
+			<key name="header-settings-choose-header-top-cpt-elementor-transparent" />
+			<key name="header-settings-choose-header-top-cpt-elementor-sticky" />
+			<key name="header-settings-choose-header-top-cpt-elementor-mobile" />
+			<key name="header-settings-choose-side-push-panel-cpt-widget-area" />
+
+			<!-- Mega Menu Settings -->
+			<key name="megamenu-settings-choose-megamenu-cpt-widget-area" />
+
+			<!-- Page Title Settings -->
+			<key name="page-title-settings-choose-page-title-cpt-widget-area" />
+			<key name="page-title-settings-enable-page-title" />
+			<key name="page-title-settings-page-title-widget-area" />
+			<key name="page-title-settings-title-container" />
+			<key name="page-title-settings-title-text-align" />
+			<key name="page-title-settings-title-default-text-color" />
+			<key name="page-title-settings-title-area-height" />
+			<key name="page-title-settings-title-layout" />
+
+			<!-- Footer Settings -->
+			<key name="footer-settings-choose-footer-widget-area" />
+			<key name="footer-settings-copyright-text" />
+
+			<!-- Blog Settings -->
+			<key name="blog-settings-blog-layout" />
+			<key name="blog-settings-show-blog-title" />
+			<key name="blog-settings-show-blog-excerpt" />
+			<key name="blog-settings-excerpt-length" />
+			<key name="blog-settings-read-more-text" />
+
+			<!-- Portfolio Settings -->
+			<key name="portfolio-settings-archive-layout" />
+			<key name="portfolio-settings-items-per-page" />
+			<key name="portfolio-settings-single-layout" />
+
+			<!-- Projects Settings -->
+			<key name="projects-settings-archive-layout" />
+			<key name="projects-settings-items-per-page" />
+
+			<!-- Social Links -->
+			<key name="social-links-list">
+				<key name="*">
+					<key name="title" />
+					<key name="url" />
+					<key name="icon" />
+				</key>
+			</key>
+
+			<!-- Custom CSS/JS -->
+			<key name="custom-css-code" />
+			<key name="custom-js-code" />
+		</key>
+	</admin-texts>
+</wpml-config>
